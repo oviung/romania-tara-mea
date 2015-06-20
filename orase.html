@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+		<meta charset="utf-8">
+		<meta content="charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+		<title>Romania, Tara Mea - Orase dupa nr. loc.</title>
+
+		<link rel="shortcut icon" href="img/tab_icon.ico">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="css/orase.css">
+		<link rel="stylesheet" type="text/css" href="css/dlbutton.css">
+
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/modernizr.custom2.js"></script>
+</head>
+
+<body>
+
+		<!-------------------------------- BARA DE NAVIGATIE -------------------------------->
+
+		<hr id="sus" width=0>
+		<div class="container">
+			<section class="cl-effect-2" id="cl-effect-2">
+				<a href="#sus" id="scroll"><span data-hover="Sus">Sus</span></a>
+				<form class="form-wrapper cf">
+					<input type="text" placeholder="Cauta aici..." required>
+					<button type="submit">Cautare</button>
+				</form>   
+				<a href="#cl-effect-2" id="trigger-overlay"><span data-hover="Meniu">Meniu</span></a>
+			</section>
+		</div>
+
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close"></button>
+			<nav class="cl-effect-5" id="cl-effect-5">
+				<ul>
+					<li><a href="index.html"><span data-hover="Acasa">Acasa</span></a></li>
+					<li><a href="info.html"><span data-hover="Informatii">Informatii</span></a></li>
+					<li><a href="atractii.html"><span data-hover="Atractii_turistice">Atractii turistice</span></a></li>
+					<li><a href="orase.html"><span data-hover="Orase">Orase</span></a></li>
+					<li><a href="https://github.com/oviung/romania-tara-mea"><span data-hover="Fisiere_site">Fisiere site</span></a></li>
+				</ul>
+			</nav>
+		</div>
+
+<div id="wrapper_continut">
+
+		<!------------------------------------ TITLU ---------------------------------------->
+
+		<div class="titlu">
+			<nav class="cl-effect" id="cl-effect">
+				<a href="#" data-hover="Orase (Top 40 nr. loc.)"><span>Orase (Top 40 nr. loc.)</span></a>
+			</nav>
+		</div>
+
+		<div class="buton-dl">
+			<div class="dlbutton">
+				<a href="resurse/orase.xlsx" download="Orase_ro_nr_loc">Descarca</a>
+				<p class="top">.XLSX</p>
+				<p class="bottom">11 KB</p>
+			</div>
+		</div>
+
+		<!------------------------------------ TABEL ---------------------------------------->
+
+		<div class="tabel">
+
+				<table>
+
+					<thead>
+						<tr>
+							<th>ORAS</th>
+							<th>JUDET</th>
+							<th>POPULATIE</th>
+							<th>ALTITUDINE (m)</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<th>1.&nbsp;&nbsp;Bucuresti</th>
+							<td>Ilfov</td>
+							<td>1.883.425</td>
+							<td>85</td>
+						</tr>
+						<tr>
+							<th>2.&nbsp;&nbsp;Cluj-Napoca</th>
+							<td>Cluj</td>
+							<td>324.576</td>
+							<td>360</td>
+						</tr>
+						<tr>
+							<th>3.&nbsp;&nbsp;Timisoara</th>
+							<td>Timis</td>
+							<td>319.279</td>
+							<td>90</td>
+						</tr>
+						<tr>
+							<th>4.&nbsp;&nbsp;Iasi</th>
+							<td>Iasi</td>
+							<td>290.422</td>
+							<td>95</td>
+						</tr>
+						<tr>
+							<th>5.&nbsp;&nbsp;Constanta</th>
+							<td>Constanta</td>
+							<td>283.872</td>
+							<td>325</td>
+						</tr>
+						<tr>
+							<th>6.&nbsp;&nbsp;Craiova</th>
+							<td>Dolj</td>
+							<td>269.506</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<th>7.&nbsp;&nbsp;Brasov</th>
+							<td>Brasov</td>
+							<td>253.200</td>
+							<td>625</td>
+						</tr>
+						<tr>
+							<th>8.&nbsp;&nbsp;Galati</th>
+							<td>Galati</td>
+							<td>249.432</td>
+							<td>55</td>
+						</tr>
+						<tr>
+							<th>9.&nbsp;&nbsp;Ploiesti</th>
+							<td>Prahova</td>
+							<td>209.945</td>
+							<td>150</td>
+						</tr>
+						<tr>
+							<th>10.&nbsp;&nbsp;Oradea</th>
+							<td>Bihor</td>
+							<td>196.367</td>
+							<td>150</td>
+						</tr>
+						<tr>
+							<th>11.&nbsp;&nbsp;Braila</th>
+							<td>Braila</td>
+							<td>180.302</td>
+							<td>20</td>
+						</tr>
+						<tr>
+							<th>12.&nbsp;&nbsp;Arad</th>
+							<td>Arad</td>
+							<td>159.074</td>
+							<td>107</td>
+						</tr>
+						<tr>
+							<th>13.&nbsp;&nbsp;Pitesti</th>
+							<td>Arges</td>
+							<td>155.383</td>
+							<td>287</td>
+						</tr>
+						<tr>
+							<th>14.&nbsp;&nbsp;Sibiu</th>
+							<td>Sibiu</td>
+							<td>147.245</td>
+							<td>415</td>
+						</tr>
+						<tr>
+							<th>15.&nbsp;&nbsp;Bacau</th>
+							<td>Bacau</td>
+							<td>144.307</td>
+							<td>165</td>
+						</tr>
+						<tr>
+							<th>16.&nbsp;&nbsp;Targu Mures</th>
+							<td>Mures</td>
+							<td>134.290</td>
+							<td>330</td>
+						</tr>
+						<tr>
+							<th>17.&nbsp;&nbsp;Baia Mare</th>
+							<td>Maramures</td>
+							<td>123.738</td>
+							<td>225</td>
+						</tr>
+						<tr>
+							<th>18.&nbsp;&nbsp;Buzau</th>
+							<td>Buzau</td>
+							<td>115.494</td>
+							<td>95</td>
+						</tr>
+						<tr>
+							<th>19.&nbsp;&nbsp;Botosani</th>
+							<td>Botosani</td>
+							<td>106.847</td>
+							<td>130</td>
+						</tr>
+						<tr>
+							<th>20.&nbsp;&nbsp;Satu Mare</th>
+							<td>Satu Mare</td>
+							<td>102.411</td>
+							<td>123</td>
+						</tr>
+						<tr>
+							<th>21.&nbsp;&nbsp;Ramnicu Valcea</th>
+							<td>Valcea</td>
+							<td>98.776</td>
+							<td>250</td>
+						</tr>
+						<tr>
+							<th>22.&nbsp;&nbsp;Drobeta-Turnu Severin</th>
+							<td>Mehedinti</td>
+							<td>92.617</td>
+							<td>65</td>
+						</tr>
+						<tr>
+							<th>23.&nbsp;&nbsp;Suceava</th>
+							<td>Suceava</td>
+							<td>92.121</td>
+							<td>325</td>
+						</tr>
+						<tr>
+							<th>24.&nbsp;&nbsp;Piatra Neamt</th>
+							<td>Neamt</td>
+							<td>85.055</td>
+							<td>345</td>
+						</tr>
+						<tr>
+							<th>25.&nbsp;&nbsp;Targu Jiu</th>
+							<td>Gorj</td>
+							<td>82.504</td>
+							<td>205</td>
+						</tr>
+						<tr>
+							<th>26.&nbsp;&nbsp;Targoviste</th>
+							<td>Dambovita</td>
+							<td>79.610</td>
+							<td>280</td>
+						</tr>
+						<tr>
+							<th>27.&nbsp;&nbsp;Focsani</th>
+							<td>Vrancea</td>
+							<td>79.315</td>
+							<td>55</td>
+						</tr>
+						<tr>
+							<th>28.&nbsp;&nbsp;Bistrita</th>
+							<td>Bistrita-Nasaud</td>
+							<td>75.076</td>
+							<td>360</td>
+						</tr>
+						<tr>
+							<th>29.&nbsp;&nbsp;Tulcea</th>
+							<td>Tulcea</td>
+							<td>73.707</td>
+							<td>30</td>
+						</tr>
+						<tr>
+							<th>30.&nbsp;&nbsp;Resita</th>
+							<td>Caras-Severin</td>
+							<td>73.282</td>
+							<td>245</td>
+						</tr>
+						<tr>
+							<th>31.&nbsp;&nbsp;Slatina</th>
+							<td>Olt</td>
+							<td>70.293</td>
+							<td>135</td>
+						</tr>
+						<tr>
+							<th>32.&nbsp;&nbsp;Calarasi</th>
+							<td>Calarasi</td>
+							<td>65.181</td>
+							<td>13</td>
+						</tr>
+						<tr>
+							<th>33.&nbsp;&nbsp;Alba Iulia</th>
+							<td>Alba</td>
+							<td>63.536</td>
+							<td>330</td>
+						</tr>
+						<tr>
+							<th>34.&nbsp;&nbsp;Giurgiu</th>
+							<td>Giurgiu</td>
+							<td>61.353</td>
+							<td>---</td>
+						</tr>
+						<tr>
+							<th>35.&nbsp;&nbsp;Deva</th>
+							<td>Hunedoara</td>
+							<td>61.123</td>
+							<td>---</td>
+						</tr>
+						<tr>
+							<th>36.&nbsp;&nbsp;Hunedoara</th>
+							<td>Hunedoara</td>
+							<td>60.525</td>
+							<td>240</td>
+						</tr>
+						<tr>
+							<th>37.&nbsp;&nbsp;Zalau</th>
+							<td>Salaj</td>
+							<td>56.202</td>
+							<td>---</td>
+						</tr>
+						<tr>
+							<th>38.&nbsp;&nbsp;Sfantu Gheorghe</th>
+							<td>Covasna</td>
+							<td>56.006</td>
+							<td>---</td>
+						</tr>
+						<tr>
+							<th>39.&nbsp;&nbsp;Barlad</th>
+							<td>Vaslui</td>
+							<td>55.837</td>
+							<td>---</td>
+						</tr>
+						<tr>
+							<th>40.&nbsp;&nbsp;Vaslui</th>
+							<td>Vaslui</td>
+							<td>55.407</td>
+							<td>---</td>
+						</tr>
+					</tbody>
+
+				</table>
+
+		</div>
+
+</div>
+
+		<!------------------------------------ SCRIPTURI ------------------------------------>
+
+		<script src="js/demo1.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="lightbox/js/jquery-1.10.2.min.js"></script>
+		<script src="js/~javascript_general.js" type="text/javascript"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.bounce.js"></script>
+		<script src="js/jquery.stickyheader.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+#wrapper_continut {
+	height: 750px;
+}
+
+.logo {
+	width: 996px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 20px;
+    clear: both;
+	height: 200px;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+    -webkit-transition: all 0.75s ease-out;
+    -moz-transition: 0.75s ease-out;
+    -o-transition: 0.75s ease-out;
+    transition: 0.75s ease-out;
+}
+
+.logo img:hover {
+	-moz-transform: scale(0.85);
+	-webkit-transform: scale(0.85);
+	-o-transform: scale(0.85);
+	transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+	M11=0.87, M12=-0, M21=0, M22=0.85);
+}
+
+.flexslider {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+#slider_wrapper {
+	position: relative;
+	left: 50%;
+	margin-left: -304px;
+	height: 0px;
+}
+
+.slideImagini img {
+	height: 400px;
+}
